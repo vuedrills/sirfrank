@@ -53,11 +53,11 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
   }
 
   return (
-    <div className='relative   md:rounded-xl overflow-hidden border dark:border-neutral-700 shadow-lg'>
+    <div className='relative   md:rounded-xl  overflow-hidden border dark:border-neutral-700 shadow-lg'>
       <div
-        className='duration-500 relative group'
+        className='duration-500 relative group h-[200px] md:h-[400px]'
         style={{
-          height: '400px',
+          // height: '400px',
           overflow: 'hidden',
         }}
       >
@@ -73,7 +73,7 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
 
       <div className='absolute flex w-full justify-between inset-0 z-10'>
         <div className='flex flex-col justify-between gap-6 p-6 sm:p-8'>
-          <div className='flex items-center gap-x-1 w-fit px-2.5 py-1.5 rounded-full text-xs font-sora text-black bg-lime-200'>
+          <div className='flex items-center gap-x-1 w-fit px-2.5 py-1.5 rounded-full text-xs font-sora text-black bg-pink-200'>
             <StarIcon size={16} />
             <span>Featured</span>
           </div>
@@ -82,7 +82,7 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
               <Link
                 href={`/blog/${currentFeatured?.slug}?id=${currentFeatured?.id}`}
               >
-                <h3 className='flex w-fit text-2xl font-bold font-sora leading-normal relative group cursor-pointer'>
+                <h3 className='flex w-fit text-xl font-medium font-sora leading-normal relative group cursor-pointer'>
                   {currentFeatured?.title?.rendered}
                   <span className='absolute -bottom-0.5 left-0 w-full h-0.5 bg-white origin-left transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
                 </h3>
@@ -90,7 +90,7 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
               <p className='hidden sm:block'>
                 {formatExcerpt(currentFeatured?.excerpt?.rendered)}
               </p>
-              <div className='flex gap-x-5 pt-1 text-neutral-400'>
+              <div className='flex gap-x-5 pt-1 hidden md:block text-neutral-400'>
                 <div className='flex gap-1 items-center '>
                   <DateIcon size={16} />
                   <span className='text-xs ml-0.5'>
@@ -99,7 +99,7 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
                 </div>
                 <div className='flex gap-1 items-center'>
                   <ViewIcon size={15} />
-                  <span className='text-[13px] ml-0.5'>
+                  <span className='text-[13px] ml-0.5 hidden'>
                     {currentFeatured?.total_views_count?.toLocaleString()} Views
                   </span>
                 </div>
@@ -108,14 +108,14 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
             <div className='flex gap-2'>
               <button
                 onClick={prevFeatured}
-                className='h-6 w-6 bg-white text-black hover:text-neutral-900 rounded-md transition-all duration-300 hover:scale-105'
+                className='h-6 w-6 bg-white text-black hover:text-neutral-900 hidden md:block rounded-md transition-all duration-300 hover:scale-105'
                 aria-label='Previous'
               >
                 <PrevIcon size={24} />
               </button>
               <button
                 onClick={nextFeatured}
-                className='h-6 w-6 bg-white text-black hover:text-neutral-900 rounded-md transition-all duration-300 hover:scale-105'
+                className='h-6 w-6 bg-white hidden md:block  text-black hover:text-neutral-900 rounded-md transition-all duration-300 hover:scale-105'
                 aria-label='Next'
               >
                 <NextIcon size={24} />

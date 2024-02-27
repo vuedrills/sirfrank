@@ -46,7 +46,7 @@ export const heroHome: HeroProps = {
   title: (
     <>
 
-In-person and  online <span className="hidden md:inline"></span> <span> GCSE tuition that gets results!</span> {' '}
+In-person and  online <span className="hidden md:inline"></span> <span> Zimsec & Cambridge tuition that gets results!</span> {' '}
       <span className="sm:whitespace-nowrap"></span>
     </>
   ),
@@ -64,13 +64,13 @@ In-person and  online <span className="hidden md:inline"></span> <span> GCSE tui
   ),
   callToAction: {
     text: 'Book a Lesson',
-    href: '/',
+    href: 'https://cal.com/sirfrank',
     icon: IconDownload,
     targetBlank: true,
   },
   callToAction2: {
     text: 'Online Lesson',
-    href: '/',
+    href: 'https://cal.com/sirfrank/online',
   },
   image: {
     src: heroImg,
@@ -163,7 +163,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'GCSE tutoring',
+      title: 'O level tutoring',
       description:
         "Whether you want a quick confidence booster, help with a specific GSCE topic, revision support or a more extended programme, we can find the right tutor for you.",
       icon: IconArrowsRightLeft,
@@ -186,7 +186,7 @@ export const contentHomeOne: ContentProps = {
     tagline: '',
   },
   content:
-    "We're very (very) picky about who we let tutor. They're experts in over 10 subjects from O up to A Level. Because they're from  uni, they studied (and aced) the same courses as your teen in the last few years. So they explain tricky concepts in a way teens understand - and they double as cool older role models.",
+    "We're very (very) picky about who we let tutor. They're from  uni, they studied (and aced) the same courses as your teen in the last few years. So they explain tricky concepts in a way teens understand - and they double as cool older role models.",
   items: [
     {
       title: 'Trusted by parents & teachers',
@@ -217,7 +217,7 @@ export const contentHomeTwo: ContentProps = {
   id: 'contentOne-on-home-two',
   hasBackground: true,
   content:
-    'Our tutors are experts in the respective subject field, having studied it to degree level, and are highly passionate about it too! Our GCSE tutors promote structured learning and revision, and ultimately foster enjoyment and success.',
+    'Our tutors are experts in the respective subject field, having studied it to degree level, and are highly passionate about it too! Our tutors promote structured learning and revision, and ultimately foster enjoyment and success.',
   items: [
     {
       title: 'Zimsec and Cambridge Exam Preparation',
@@ -416,7 +416,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Book',
-        href: '/',
+        href: 'https://cal.com/sirfrank',
       },
       hasRibbon: false,
      
@@ -442,7 +442,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Book',
-        href: '/',
+        href: 'https://cal.com/sirfrank',
       },
       hasRibbon: false,
 
@@ -470,7 +470,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Book',
-        href: '/',
+        href: 'https://cal.com/sirfrank',
       },
       hasRibbon: false,
     },
