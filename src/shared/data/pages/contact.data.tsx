@@ -30,12 +30,12 @@ export const contact2Contact: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['1164 second Avenue Park town Waterfalls', 'Harare, Zimbabwe'],
+      description: ['1164 Sandton Mt Hampden', 'Harare, Zimbabwe'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: 078 797 8876', 'Mail: benjiemaisiri@gmail.com'],
+      description: ['Mobile: +263 783 596 501', 'Mail: sirfrank.stc@gmail.com'],
       icon: IconPhoneCall,
     },
     {

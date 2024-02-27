@@ -1,12 +1,12 @@
 module.exports.SITE = {
-  name: 'Waterfalls Medical Center',
+  name: 'Sandton Tuition Centre',
 
-  origin: 'https://www.facebook.com/profile.php?id=61553480327095&sk=photos_by',
+  origin: '',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Waterfalls Medical Center Your Health Is Our Priority',
-  description: 'Waterfalls Medical Center Your Health Is Our Priority',
+  title: 'Sandton Tuition Centre Your Education Is Our Priority',
+  description: 'Sandton Tuition Centre Your Education Is Our Priority',
 };
 
 //'https://images.unsplash.com/photo-1612776572997-76cc42e058c3'

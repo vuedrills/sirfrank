@@ -34,9 +34,9 @@ import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 import cameraFrontImg from '~/assets/images/camera-front.avif';
-import cameraBackImg from '~/assets/images/baby.jpg';
+import cameraBackImg from '~/assets/images/baby.avif';
 import gasImg from '~/assets/images/gas.avif';
-import bcImg from '~/assets/images/bc.jpg';
+import bcImg from '~/assets/images/p.jpeg';
 import bc2Img from '~/assets/images/bc2.jpg';
 import bc3Img from '~/assets/images/bc3.webp';
 import bc4Img from '~/assets/images/bc4.webp';
@@ -46,8 +46,8 @@ export const heroHome: HeroProps = {
   title: (
     <>
 
-    Start your whole health journey <span className="hidden md:inline">here</span> <span>at Waterfall Medical Center</span> &{' '}
-      <span className="sm:whitespace-nowrap">More</span>
+In-person and  online <span className="hidden md:inline"></span> <span> GCSE tuition that gets results!</span> {' '}
+      <span className="sm:whitespace-nowrap"></span>
     </>
   ),
   subtitle: (
@@ -55,21 +55,21 @@ export const heroHome: HeroProps = {
    
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          We
+          
         </span>{' '}
-        pride ourselves on the unique patient experience and quality of care we provide., which sets our hospital apart. <em>at WMC</em>  <em></em>.
+        A team of expert tutors with 3 common values: experience, qualifications, and a desire to see your child succeed at STC.
       </span>{' '}
-      We also invest in state-of-the-art facilities and medical technologies so we can offer ground-breaking treatments in specialist treatment units.
+      One-to-one lessons, expertly matched by our client services team at a time and place that suit you.  It couldn’t be simpler.
     </>
   ),
   callToAction: {
-    text: 'Book an Appointment',
+    text: 'Book a Lesson',
     href: '/',
     icon: IconDownload,
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Telemedicine',
+    text: 'Online Lesson',
     href: '/',
   },
   image: {
@@ -114,18 +114,18 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">WMC</span>
+        What you get at <span className="whitespace-nowrap">STC</span>
       </>
     ),
     subtitle:
-      "At WMC, it’s all about you. We want to help you get back to your best health as smoothly as possible.Our nurses, clinicians and support teams are dedicated to the care of a very small number of patients, so they have more time for you.",
+      "In 2023, 87% of our students exceeded their predicted grades. Trusted by schools, local authorities and parents alike.",
     tagline: '',
   },
   items: [
     {
-      title: 'Your 24/7 private GP',
+      title: 'Personalised programmes',
       description:
-        "Your health concerns don't keep to working hours, so neither do we. Access a private GP, anytime, anywhere. You'll usually be seen within 2 hours, so you can feel better, faster.",
+        "Speak to our knowledgeable client services team, who help 1000s of clients find tutoring solutions tailored to them.",
       icon: IconBrandTailwind,
       callToAction: {
         text: 'Book now',
@@ -133,9 +133,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Family Planning Services',
+      title: 'Expertly matched O & A level tutors',
       description:
-        "Contraceptive services, pregnancy testing and counseling, helping clients achieve pregnancy, basic infertility services, preconception health services, and STD services.",
+        "One-to-one lessons, expertly matched by our client services team at a time and place that suit you.  It couldn’t be simpler.",
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
@@ -143,9 +143,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Baby Immmunisation',
+      title: 'In-person and online tutoring',
       description:
-        'Protect your little ones from harmful diseases with our baby vaccination services! Our clinic is open from 8am-5pm every Wednesday , so come on in and give your baby the best start in life.',
+        'A team of expert tutors with 3 common values: experience, qualifications, and a desire to see your child succeed.',
       icon: IconListCheck,
       callToAction: {
         text: 'Learn more',
@@ -153,9 +153,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Medical Examination',
+      title: 'A-level tuition',
       description:
-        'A physical exam checks your overall health. We will evaluate the basic function of your organs, address any concerns, update your vaccinations and help you get healthy or maintain good health. Get a physical exam each year. It takes about 30 minutes to complete.',
+        'Our tutors focus on where the gaps are working in a way that works for the individual teenager.',
       icon: IconRocket,
       callToAction: {
         text: 'Discover now',
@@ -163,25 +163,16 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Laboratory',
+      title: 'GCSE tutoring',
       description:
-        "MedPath Diagnostics provides preventive health services, blood tests & personalised wellness packages to improve health & longevity at affordable costs.We are equipped with Modern Technology & Qualified Technicians to give accurate, efficient services to you and your family. ",
+        "Whether you want a quick confidence booster, help with a specific GSCE topic, revision support or a more extended programme, we can find the right tutor for you.",
       icon: IconArrowsRightLeft,
       callToAction: {
         text: 'Learn more',
         href: '/',
       },
     },
-    {
-      title: 'Vaccine And Travel Clinic',
-      description:
-        'We offer a range of vaccinations which include yellow fever, tetanus, Hepatitis B, rabies, typhoid, meningitis, influenza and many others.',
-      icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
+
   ],
 };
 
@@ -190,27 +181,27 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Be seen your way',
-    subtitle: ' Access a private GP, anytime, anywhere.',
+    title: 'Tutors you can trust',
+    subtitle: ' Highly experienced and qualified tutors.',
     tagline: '',
   },
   content:
-    'You can book in quickly with an experienced private GP by phone, via videocall, in person at our Harley Street clinic or in the comfort of your own home. The choice is yours.',
+    "We're very (very) picky about who we let tutor. They're experts in over 10 subjects from O up to A Level. Because they're from  uni, they studied (and aced) the same courses as your teen in the last few years. So they explain tricky concepts in a way teens understand - and they double as cool older role models.",
   items: [
     {
-      title: 'Walk-in clinic',
+      title: 'Trusted by parents & teachers',
       description:
-        'Visit us at our 1164 Second Avenue Waterfalls clinic 8am-7pm, Monday to Sartuday, to speak to a doctor in person.',
+        'And because our tutors get such good results, schools use them to support their teaching. We work with 20+ across the Zim, targeting learning gaps and helping teens everywhere achieve their goals.',
     },
     {
-      title: 'Telephone consultations',
+      title: 'Help every step of the way',
       description:
-        'Speak to a GP over the phone or via video call within an hour of booking, anytime 24/7, for ultimate flexibility.',
+        'We’re always on hand to listen, answer questions and give you the tailored support you need.',
     },
     {
       title: 'At-home visits',
       description:
-        'Prefer to see a doctor in your own home? Appointments available 24/7 within Waterfall & Harare CBD',
+        'Prefer to see a tutor in your own home? Appointments available 24/7 within Sandton',
     },
   ],
   image: {
@@ -226,25 +217,25 @@ export const contentHomeTwo: ContentProps = {
   id: 'contentOne-on-home-two',
   hasBackground: true,
   content:
-    'You’ll receive one-to-one in-person care under the guidance of our experienced GP, with outstanding nursing to support you throughout the testing process',
+    'Our tutors are experts in the respective subject field, having studied it to degree level, and are highly passionate about it too! Our GCSE tutors promote structured learning and revision, and ultimately foster enjoyment and success.',
   items: [
     {
-      title: 'Baby Immunization',
+      title: 'Zimsec and Cambridge Exam Preparation',
     },
     {
-      title: 'Your health. Your way.',
+      title: 'Comprehensive Subject Coverage',
     },
     {
-      title: 'Flexible. Trusted. Experienced.',
+      title: 'Inspiring Beyond the Syllabus',
     },
     {
-      title: 'We personalise care',
+      title: 'Revision Materials & Resources',
     },
     {
       title: 'Excellence in one place',
     },
     {
-      title: '24/7 access',
+      title: 'Small groups',
     },
   ],
   image: {
@@ -266,25 +257,25 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Three simple steps to getting your treatment .',
+    title: 'Three simple steps to booking your lessons .',
   },
   items: [
     {
-      title: 'Step 1: Book an appointment',
+      title: 'Step 1: Click on book lesson link',
       description:
-        'Contact our dedicated self-pay team to book an appointment. They’ll help you choose the right specialist consultant for your needs and book an initial consultation at a time to suit you. We can often arrange appointments within 24 to 48 hours. ',
+        'This will take you to our school calendar with all available slots',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2: Meet Your Care Provider',
+      title: 'Step 2: Select your days and time slots',
       description:
-        'Your consultant will take their time to discuss your medical history and help you understand your treatment options. They’ll also explain if you need any diagnostic tests or scans, to help them recommend the best treatment for you. ',
+        'You can days you want to have your lessons and the time thats convinient for you',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3: Arrange your treatment',
+      title: 'Step 3: Wait for approval email',
       description:
-        'Your consultant will help you plan a convenient time for your treatment. We’ll also provide you with all the information you need before you arrive and support you every step of the way while you’re with us. ',
+        'Once your booking is approved you will get an email of approval',
       icon: IconArrowDown,
     },
     {
@@ -305,8 +296,8 @@ export const testimonialsHome: TestimonialsProps = {
   testimonials: [
     {
       name: 'Tayla Kanengoni',
-      job: 'Marketing Manager',
-      testimonial: `From the moment I walked into the clinic, I was greeted with a warm and welcoming atmosphere. The clinic itself was very comfortable, which immediately put me at ease. `,
+      job: 'A level',
+      testimonial: `I was transformed from an average student to a prize-winner in less than a year. My tutor was comfortable explaining both basic and complex concepts – in both areas his enthusiasm for the subject is plain to see, through his genuinely passionate teaching style. `,
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Tayla Kirsten',
@@ -315,8 +306,8 @@ export const testimonialsHome: TestimonialsProps = {
     },
     {
       name: 'Silver Moyo',
-      job: 'Senior Marketer',
-      testimonial: `I have been a patient on and off since 2002 and have always appreciated the efficient and professional approach of all concerned. I particularly like the friendly and genuine attitude of the staff - no synthetic smiles and high fives as in other clinics!`,
+      job: 'Parent of an O level',
+      testimonial: `I thought you would like to know that our son has had some good results. He got all A’s in Maths, Chemistry and Music. Many thanks for this and please pass our thanks on to his tutors`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -325,8 +316,8 @@ export const testimonialsHome: TestimonialsProps = {
     },
     {
       name: 'Kelsey Mpofu',
-      job: 'Co-Founder & CEO',
-      testimonial: `Both times that I was in the London Clinic for surgery (as well as an outpatient), I found it to be well run and efficient. The staff were professional, friendly and knowledgeable.`,
+      job: 'O level',
+      testimonial: `I wouldn’t have been able to do it without Cambridge Tutors. Others have tried to explain things but it just didn’t click; my tutor said it in a way I could understand.`,
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
@@ -335,8 +326,8 @@ export const testimonialsHome: TestimonialsProps = {
     },
     {
       name: 'Sarah Gara',
-      job: 'Business Owner',
-      testimonial: `Excellent medical care from specialists, nurses and room service. The en-suite room was clean, comfortable, spacious and calm- ideal for recuperation. There was plenty of space to have family member to stay and support`,
+      job: 'O level student',
+      testimonial: `My tutor’s personal and thorough teaching style has been without a doubt a deciding factor towards my being accepted to study at Imperial. He is an excellent teacher and a life mentor who will undoubtedly guide any student towards reaching his/her full potential, inspiring confidence and ultimately excellence.`,
       image: {
         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Sarah Johnson',
@@ -345,24 +336,15 @@ export const testimonialsHome: TestimonialsProps = {
     },
     {
       name: 'Keith Nyoni',
-      job: 'Freelance Developer',
-      testimonial: `The clean code and integration with Next.js make my projects a breeze. Plus, the responsive design ensures that my clients' websites look amazing on any device. These templates have become my secret weapon for success!`,
+      job: 'Parent of an A level student',
+      testimonial: `Our daughter got an A* in A level Maths. Once again thank you for the timely help and guidance. I need to speak to you about Biology and Chemistry tuition`,
       image: {
         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Keith Young',
       },
       href: '/',
     },
-    {
-      name: 'Lisa Siyamusiya',
-      job: 'Project Manager',
-      testimonial: `Great experience, everyone was very kind and helpful. Thank you for the great provided care.`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Lisa Gordon',
-      },
-      href: '/',
-    },
+ 
   ],
 };
 
@@ -378,20 +360,25 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'Does 24/7 really mean 24/7',
-      description: `Yes, it does. Thanks to our partnership with MyHealthcare Clinic and Doctorcall we can confidently offer you access to GP appointments 24/7, 365 days a year. That includes weekends, bank holidays, day and night. While not every type of appointment may be available all of the time, there will always be a GP that you can speak to about your concerns`,
+      title: "Are your tutors experienced in teaching curriculum?",
+      description: `
+      Absolutely. Our team of online tutors comprises experienced educators who are well-versed in the curriculum and assessment criteria. The qualified teacher that you’ll be paired with will posses a deep understanding of the subjects they teach and are skilled in guiding students through the syllabus, providing effective explanations, and offering exam-specific strategies.
+      `,
     },
     {
-      title: "I have issues speaking over the phone or cannot travel, what can I do?",
-      description: `Thanks to our partnership with Doctorcall, we are able to offer at-home GP appointments within London. This service is also available 24/7, 7 days a week – so you never have to worry about getting your concerns addressed.`,
+      title: "Can your tutors help with exam techniques and study skills?",
+      description: `
+
+      Certainly. Our tutors not only focus on imparting subject content but also on enhancing essential study skills and exam techniques. From time management during exams to effective note-taking, our aim is to equip students with the tools needed to approach exams with confidence and perform at their best.
+      `,
     },
     {
-      title: "Can a GP prescribe me medications over the phone and how do I pick them up?",
-      description: `All our GPs can prescribe medication and treatment options. We offer hassle-free e-prescriptions which are available immediately and can be collected at most local pharmacies.`,
+      title: "Is online tuition effective?",
+      description: `Absolutely, online tutoring at STC has proven to be highly effective. We've harnessed the power of digital platforms to create an engaging and interactive learning environment that mirrors the benefits of in-person tutoring. Our experienced tutors are adept at delivering personalised instruction, tailored to individual student needs, through virtual channels.`,
     },
     {
-      title: "What are the benefits of being referred to The London Clinic for diagnostics or treatment?",
-      description: `The WMC boasts a world-class team of expert clinicians. With rapid diagnostics, specialist consultations and tailored treatment options, we’ll help you find out what’s wrong quickly, to get you feeling better sooner.`,
+      title: "Do you offer a first trial lesson?",
+      description: `Our first lesson will be free, however we remain in constant contact with both our clients and tutors and are more than happy to re-arrange or re-assign you a new tutor if you are unhappy for any reason. `,
     },
   
   ],
@@ -409,21 +396,21 @@ export const pricingHome: PricingProps = {
   },
   prices: [
     {
-      title: 'Laboratory',
-      price: 19,
+      title: 'O level',
+      price: 25,
       period: '45 mins',
       items: [
         {
-          description: 'Urine and Blood Tests',
+          description: 'Exam Preparation',
         },
         {
-          description: 'Toxicology',
+          description: 'Comprehensive Subject Coverage',
         },
         {
-          description: 'Histopathology',
+          description: 'Guidance on coursework ',
         },
         {
-          description: 'Immunology',
+          description: 'Course and revision materials',
         },
       ],
       callToAction: {
@@ -435,21 +422,21 @@ export const pricingHome: PricingProps = {
      
     },
     {
-      title: 'Appointment',
-      price: 10,
+      title: 'A level',
+      price: 50,
       period: '45 mins',
       items: [
         {
           description: 'Individualised attention',
         },
         {
-          description: 'Physical Examination',
+          description: 'Comprehensive Subject Coverage',
         },
         {
-          description: 'Pescription Management',
+          description: 'Guidance on coursework',
         },
         {
-          description: 'Follow up care',
+          description: 'Exam Preparation',
         },
       ],
       callToAction: {
@@ -457,27 +444,27 @@ export const pricingHome: PricingProps = {
         text: 'Book',
         href: '/',
       },
-      hasRibbon: true,
-      ribbonTitle: 'Popular',
+      hasRibbon: false,
+
     },
  
     {
-      title: 'Radiology',
+      title: 'Online only',
       subtitle: '',
-      price: 29,
+      price: 40,
       period: '45 mins',
       items: [
         {
-          description: 'X-ray',
+          description: 'Exam Preparation',
         },
         {
-          description: 'Ultrasound.',
+          description: 'Comprehensive Subject Coverage',
         },
         {
-          description: 'CT Scan',
+          description: 'Guidance on coursework ',
         },
         {
-          description: 'MRI',
+          description: 'Course and revision materials',
         },
       ],
       callToAction: {
@@ -502,8 +489,8 @@ export const teamHome: TeamProps = {
   },
   teams: [
     {
-      name: 'DR B Maisiri',
-      occupation: 'Family Doctor',
+      name: 'Sir Frank',
+      occupation: 'Commercials',
       image: {
         src: bcImg,
         alt: 'Cindy Belcher',
@@ -527,10 +514,10 @@ export const teamHome: TeamProps = {
       ],
     },
     {
-      name: 'Sister Betty',
-      occupation: 'Nurse',
+      name: 'Sir Benhura',
+      occupation: 'Sciences',
       image: {
-        src: bc2Img,
+        src: bcImg,
         alt: 'Toby Foster',
       },
       items: [
@@ -551,56 +538,7 @@ export const teamHome: TeamProps = {
         },
       ],
     },
-    {
-      name: 'Sister Brenda',
-      occupation: 'Nurse',
-      image: {
-        src: bc3Img,
-        alt: 'Clark Bourne',
-      },
-      items: [
-        {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
-        {
-          title: 'Contact by email',
-          icon: IconMail,
-          href: '#',
-        },
-      ],
-    },
-    {
-      name: 'Sister Kayla',
-      occupation: 'Nurse',
-      image: {
-        src: bc4Img,
-        alt: 'Bella Chase',
-      },
-      items: [
-        {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
-        {
-          title: 'Contact by email',
-          icon: IconMail,
-          href: '#',
-        },
-      ],
-    },
+  
   ],
 };
 
@@ -613,16 +551,16 @@ export const contactHome: ContactProps = {
     //tagline: 'Contact',
   },
   content:
-    'Get in touch with WMC. Our specially trained advisors are ready to help with your query today by phone or online.',
+    'Get in touch with STC. Our specially trained advisors are ready to help with your query today by phone or online.',
   items: [
     {
       title: 'Our Address',
-      description: ['1164 2nd Ave Parktown, Waterfalls', 'Harare, Zim'],
+      description: ['1164 2nd Ave Snadton, Mt Hampden', 'Harare, Zim'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +263 772 579 606', 'Mail: jayden@gmail.com'],
+      description: ['Mobile: +263 783 596 501', 'Mail: sirfrank.stc@gmail.com'],
       icon: IconPhoneCall,
     },
     {
@@ -666,18 +604,18 @@ export const callToAction2Home: CallToActionProps = {
   subtitle:
     'Join thousands of our clients who get in-depth articles (on Fridays) and hand-picked health tips (every month):',
   callToAction: {
-    text: 'Doctors blog',
+    text: 'Teachers blog',
     href: 'h',
     icon: IconDownload,
   },
   items: [
     {
-      title: 'Doctors blog',
-      description: "Read Dr Maisiri's blog posts ",
+      title: 'Teachers blog',
+      description: "Read Sir Frank's blog posts ",
       href: '/',
     },
     {
-      title: 'Sisters blog',
+      title: 'Students blog',
       description: 'Health advice from your care givers.',
       href: '/',
     },

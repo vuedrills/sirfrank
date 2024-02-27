@@ -45,13 +45,13 @@ export default function Page() {
    
   let data1: BlogItemProps = {
     id: 1,
-  date: '2024-02-07T08:10:00Z',
-  modified: "2024-02-07T08:10:00Z",
+  date: '2024-02-27T08:10:00Z',
+  modified: "2024-02-27T08:10:00Z",
   slug: "default",
   status: "default",
   link: "https://images.unsplash.com/photo-1471128466710-c26ff0d26143",
   title: {
-    rendered: "We go further",
+    rendered: "Personalised programmes",
   },
   content: {
     rendered: "The London Clinic has been a registered charity since 1935. We proudly demonstrate our commitment to our charitable status through reinvesting any surplus income back into the hospital. ",
@@ -59,7 +59,7 @@ export default function Page() {
     protected: true,
   },
   excerpt: {
-    rendered: "We operate as teams of experts with world-class resources dedicated to maintaining the highest standards of medical care.",
+    rendered: "We understand that each student is unique..",
     protected: true,
   },
   author: 2,
@@ -87,20 +87,20 @@ export default function Page() {
     filter: "default",
   }],
   amp_enabled: true,
-  featured_image_url:  "/images/f1.jpg",
+  featured_image_url:  "/images/f1.avif",
   total_views_count: 2,  
   }
 
 
   let data2: BlogItemProps = {
     id: 2,
-    date: '2024-02-07T08:10:00Z',
-  modified: "2024-02-07T08:10:00Z",
+    date: '2024-02-27T08:10:00Z',
+  modified: "2024-02-27T08:10:00Z",
   slug: "default",
   status: "default",
   link: "https://images.unsplash.com/photo-1471128466710-c26ff0d26143",
   title: {
-    rendered: "We personalise care",
+    rendered: "Expertly matched GCSE tutors",
   },
   content: {
     rendered: "Exceptional patient care is a way of life for us.",
@@ -108,7 +108,7 @@ export default function Page() {
     protected: true,
   },
   excerpt: {
-    rendered: "Exceptional patient care is a way of life for us.",
+    rendered: "Our tutors are highly experienced and work closely with students on a one-on-one basis.",
     protected: true,
   },
   author: 2,
@@ -136,19 +136,19 @@ export default function Page() {
     filter: "default",
   }],
   amp_enabled: true,
-  featured_image_url:  "/images/f2.jpg",
+  featured_image_url:  "/images/f2.avif",
   total_views_count: 2,  
   }
 
   let data3: BlogItemProps = {
     id: 3,
-    date: '2024-02-07T08:10:00Z',
-  modified: "2024-02-07T08:10:00Z",
+    date: '2024-02-27T08:10:00Z',
+  modified: "2024-02-27T08:10:00Z",
   slug: "default",
   status: "default",
   link: "https://images.unsplash.com/photo-1471128466710-c26ff0d26143",
   title: {
-    rendered: "We work as one",
+    rendered: "In-person and online GCSE tutoring",
   },
   content: {
     rendered: "We work together as one to guide you through each step of your experience",
@@ -156,7 +156,7 @@ export default function Page() {
     protected: true,
   },
   excerpt: {
-    rendered: "We work together as one to guide you through each step of your experience",
+    rendered: "Our tutors are experts in the respective subject field,",
     protected: true,
   },
   author: 2,
@@ -184,14 +184,14 @@ export default function Page() {
     filter: "default",
   }],
   amp_enabled: true,
-  featured_image_url:  "/images/f3.jpg",
+  featured_image_url:  "/images/f3.avif",
   total_views_count: 2,  
   }
 
   let data4: BlogItemProps = {
     id: 4,
-    date: '2024-02-07T08:10:00Z',
-  modified: "2024-02-07T08:10:00Z",
+    date: '2024-02-27T08:10:00Z',
+  modified: "2024-02-27T08:10:00Z",
   slug: "default",
   status: "default",
   link: "https://images.unsplash.com/photo-1471128466710-c26ff0d26143",
@@ -204,7 +204,7 @@ export default function Page() {
     protected: true,
   },
   excerpt: {
-    rendered: "We proudly demonstrate our commitment to our charitable status",
+    rendered: "We strongly believe that school is about more than the curriculum,",
     protected: true,
   },
   author: 2,
@@ -232,7 +232,7 @@ export default function Page() {
     filter: "default",
   }],
   amp_enabled: true,
-  featured_image_url:  "/images/f4.jpg",
+  featured_image_url:  "/images/f4.avif",
   total_views_count: 2,  
   }
 
@@ -294,15 +294,14 @@ export default function Page() {
       <BlogFeaturedHero data={featuredData} />
       </div>
 
-      <SocialProof {...socialProofHome} />
+      {/* <SocialProof {...socialProofHome} /> */}
       <Hero {...heroHome} />
    
      
       {/* <BlogCarousel/> */}
    
       <Features  {...featuresHome} />
-      <Features4 {...features4Services} />
-      <Features4 {...features5Services} />
+  
       <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />

@@ -20,13 +20,13 @@ const Timeline = ({
               <div className="flex flex-col items-center mr-4 rtl:mr-0 rtl:ml-4">
                 <div
                   className={`flex items-center justify-center ${
-                    index !== items.length - 1 ? '' : 'text-slate-200 rounded-full bg-primary-900'
+                    index !== items.length - 1 ? '' : 'text-slate-200 rounded-full bg-red-900'
                   }`}
                 >
                   {Icon ? (
-                    <Icon className={twMerge('w-10 h-10 p-2 rounded-full border-2', iconClass)} />
+                    <Icon className={twMerge('w-10 h-10 p-2 rounded-full border-2 border-red-900', iconClass)} />
                   ) : DefaultIcon ? (
-                    <DefaultIcon className={twMerge('w-10 h-10 p-2 rounded-full border-2', iconClass)} />
+                    <DefaultIcon className={twMerge('w-10 h-10 p-2 rounded-full border-2 border-red-900', iconClass)} />
                   ) : null}
                 </div>
 

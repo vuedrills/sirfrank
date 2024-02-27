@@ -13,11 +13,11 @@ export const announcementData: AnnouncementProps = {
   title: 'Social',
   callToAction: {
     text: 'Follow us on facebook »',
-    href: 'https://www.facebook.com/profile.php?id=61553480327095&sk=about',
+    href: '',
   },
   callToAction2: {
     text: 'Follow @wmc on Twitter',
-    href: 'https://www.facebook.com/profile.php?id=61553480327095&sk=about',
+    href: '',
   },
 };
 
@@ -28,34 +28,34 @@ export const headerData: HeaderProps = {
       label: 'Pages',
       icon: IconChevronDown,
       links: [
-        {
-          label: 'Services',
-          href: '/services',
-        },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'About us',
-          href: '/about',
-        },
+        // {
+        //   label: 'Services',
+        //   href: '/services',
+        // },
+        // {
+        //   label: 'Pricing',
+        //   href: '/pricing',
+        // },
+        // {
+        //   label: 'About us',
+        //   href: '/about',
+        // },
         {
           label: 'Contact us',
           href: '/contact',
         },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
-        },
+        // {
+        //   label: 'FAQs',
+        //   href: '/faqs',
+        // },
+        // {
+        //   label: 'Terms & Conditions',
+        //   href: '/terms',
+        // },
+        // {
+        //   label: 'Privacy Policy',
+        //   href: '/privacy',
+        // },
       ],
     },
     {
@@ -70,7 +70,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Book an Apppointment',
-      href: 'https://www.facebook.com/profile.php?id=61553480327095&sk=about',
+      href: '',
       targetBlank: true,
     },
   ],
@@ -204,7 +204,7 @@ export const footerData: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://www.facebook.com/profile.php?id=61553480327095&sk=about' },
+    { label: 'Github', icon: IconBrandGithub, href: '' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
@@ -230,15 +230,15 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['1164 second Avenue Park town Waterfalls', 'Harare '],
+      texts: ['1164 2nd Ave Snadton, Mt Hampden', 'Harare '],
     },
     {
       title: 'Phone',
-      texts: ['Reception: 078 797 8876', 'Office: 0772579606'],
+      texts: ['Reception:+263 783 596 501', 'Office: +263 778 527 984'],
     },
     {
       title: 'Email',
-      texts: ['Office: benjiemaisiri@gmail.com', 'Site: https://wmc.com'],
+      texts: ['Office: sirfrank.stc@gmail.com', ''],
     },
   ],
   socials: [
@@ -246,7 +246,7 @@ export const footerData2: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://www.facebook.com/profile.php?id=61553480327095&sk=about' },
+    { label: 'Github', icon: IconBrandGithub, href: '' },
   ],
   footNote: (
     <div className="mr-4 text-sm">

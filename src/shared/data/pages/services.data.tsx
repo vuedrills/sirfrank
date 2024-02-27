@@ -29,7 +29,7 @@ export const heroServices: HeroProps = {
     'Our mission is to provide comprehensive, personalized healthcare that meets the highest standards of quality & convenience all for a healthier tomorrow. ',
   callToAction: {
     text: 'Book an Appointment',
-    href: "https://www.facebook.com/profile.php?id=61553480327095&sk=photos_by",
+    href: "",
     targetBlank: true,
   },
   image: {

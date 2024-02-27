@@ -144,7 +144,7 @@ const Form = ({
         <div
           className={`${btnPosition === 'left' ? 'text-left' : btnPosition === 'right' ? 'text-right' : 'text-center'}`}
         >
-          <button type={btn.type || 'button'} className="btn btn-primary sm:mb-0">
+          <button type={btn.type || 'button'} className="btn  bg-red-900 text-white sm:mb-0 dark:bg-red-900 dark:text-white sm:mb-0">
             {btn.title}
           </button>
         </div>
